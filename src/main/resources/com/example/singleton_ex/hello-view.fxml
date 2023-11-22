@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.singleton_ex.HelloController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="tf_input" layoutX="24.0" layoutY="83.0" prefHeight="22.0" prefWidth="552.0" />
+            <Button fx:id="btn_next" layoutX="536.0" layoutY="189.0" mnemonicParsing="false" text="next" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
